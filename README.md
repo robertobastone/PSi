@@ -1,6 +1,6 @@
 # PSi
 
-Prime SIever (PSi) is a Python script that provides several prime sieves.
+Prime Siever (PSi) is a Python script that provides several prime sieves.
 
 # Milestone
 
@@ -9,4 +9,6 @@ Prime SIever (PSi) is a Python script that provides several prime sieves.
   
 # Versions
 
-## Version 1.0
+## Version 1.0 (Novemeber, 4 2018)
+- Parabolic siever by Matiyasevich and Stechkin
+
