@@ -19,5 +19,5 @@ Prime Siever (PSi) is a Python script that provides several prime sieves.
 # How to run the script
 ## From terminal
 - type in python in your terminal then
->>> import PSi
->>> PSi.PrimeSiever().main()
+import PSi
+PSi.PrimeSiever().main()
