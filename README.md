@@ -2,7 +2,7 @@
 
 _Prime Siever_ (PSi) is a Python script that provides several prime sieves.
 
-The so-called "sieves" refer to a algorithmes or techniques whose purpose is to determine the number of prime numbers up to some arbitrarly number _x_.
+The so-called "sieves" refer to algorithmes or techniques whose purpose is to determine the number of prime numbers up to some arbitrarly number _x_.
 
 # Milestones
 
