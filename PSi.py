@@ -1,7 +1,7 @@
 ################################################### PSI
 
-# author: Roberto Bastone
-# email: robertobastone93@gmail.com
+author = 'Roberto Bastone'
+email = 'robertobastone93@gmail.com'
 
 version = 1.01
 
@@ -18,6 +18,8 @@ class PrimeSiever:
     #### INITIALIZING
     def __init__(self):
         print colored("Initializing... PrimeSiever version " + str(version), 'blue')
+        print colored("(Author: " + author+')', 'blue')
+        print colored("For info - or anything else - please, feel free to reach me at " + email, 'blue')
     #### INITIALIZING        
     def main(self):
         self.introduction(self.yes,self.no)
@@ -42,10 +44,32 @@ class PrimeSiever:
             fnct = raw_input(">What sieve do you choose? ").lower()
             if ( fnct == "parabolic"):
                 parabolic = PPS.PSiParabolicSiever()
-                parabolic.siever()
+                parabolic.siever()  
+                self.keepOnSieving(self.yes,self.no)
+                break
             elif( fnct == "quit"):
-                print colored("Terminating... PrimeSiever version " + str(version),'blue')
+                self.sayingGoodbye()
                 break
             else:
                 print( colored('>Error! Type a valide entry','red'))
                 continue
+    ### KEEP ON SIEVING?
+    def keepOnSieving(self, yes, no):
+        while True:
+            choice = raw_input(">Do you want to rerun PSi? [y/n] \n").lower()
+            if choice in yes:
+                self.sievesChoice()
+                break
+            elif choice in no:
+                self.sayingGoodbye()
+                break
+            else:
+                print( colored(">Please, select [y/n] only",'yellow'))
+                continue
+        
+    ### SAYING GOODBYE
+    def sayingGoodbye(self):
+        print colored("Terminating... PrimeSiever version " + str(version),'blue')
+        print colored("If you find any bug, please do not hesitate to contact me at "+ email,'blue')
+
+        
