@@ -23,5 +23,7 @@ The so-called "sieves" refer to algorithmes or techniques whose purpose is to de
 # How to run the script
 ## From terminal
 - type in python in your terminal then:
+
 > import PSi
+
 > PSi.PrimeSiever().main()
