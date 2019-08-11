@@ -3,7 +3,7 @@
 author = 'Roberto Bastone'
 email = 'robertobastone93@gmail.com'
 
-version = 1.01
+version = 1.02
 
 ################################################### IMPORT
 
