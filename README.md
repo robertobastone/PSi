@@ -27,3 +27,8 @@ The so-called "sieves" refer to algorithmes or techniques whose purpose is to de
 > import PSi
 
 > PSi.PrimeSiever().main()
+
+```
+import PSi
+PSi.PrimeSiever().main()
+```
