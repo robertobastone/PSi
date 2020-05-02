@@ -1,8 +1,6 @@
 ################################################### PSI
 
 author = 'Roberto Bastone'
-email = 'robertobastone93@gmail.com'
-
 version = 1.02
 
 ################################################### IMPORT
@@ -19,7 +17,6 @@ class PrimeSiever:
     def __init__(self):
         print colored("Initializing... PrimeSiever version " + str(version), 'blue')
         print colored("(Author: " + author+')', 'blue')
-        print colored("For info - or anything else - please, feel free to reach me at " + email, 'blue')
     #### INITIALIZING        
     def main(self):
         self.introduction(self.yes,self.no)
@@ -70,6 +67,5 @@ class PrimeSiever:
     ### SAYING GOODBYE
     def sayingGoodbye(self):
         print colored("Terminating... PrimeSiever version " + str(version),'blue')
-        print colored("If you find any bug, please do not hesitate to contact me at "+ email,'blue')
 
         
