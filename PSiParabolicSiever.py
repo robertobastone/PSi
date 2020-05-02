@@ -1,7 +1,6 @@
 ################################################### PSi parabolic siever
 
 # author: Roberto Bastone
-# email: robertobastone93@gmail.com
 
 version = 1.00
 
